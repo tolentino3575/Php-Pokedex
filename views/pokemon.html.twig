@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Pokemon</title>
+</head>
+<body>
+    <h1>Pokemon</h1>
+    {% for pokemon in new_pokemon %}
+        <li>{{ pokemon.getId }}</li>
+        <li>{{ pokemon.getName }}</li>
+        <li>{{ pokemon.getType }}</li>
+    {% endfor %}
+
+    <form action='/delete' method='post'>
+    <button type='submit'>Free them all</button>
+</form>
+    <p><a href='/'>Home</a></p>
+</body>
+</html>

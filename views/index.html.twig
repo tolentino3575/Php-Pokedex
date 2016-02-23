@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Pokemon</title>
+</head>
+<body>
+    <h1>Pokemon</h1>
+
+    <form action='/pokemon' method='post'>
+        <label for='name'>Pokemon Name</label>
+        <input name='name' type='text'>
+        <label for='type'>Pokemon Type</label>
+        <input name='type' type='text'>
+
+        <button type='submit'>Add!</button>
+    </form>
+    <form action='/delete' method='post'>
+        <button type='submit'>Clear</button>
+    </form>
+
+    <p><a href='/'>Home</a></p>
+</body>
+</html>

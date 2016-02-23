@@ -61,7 +61,7 @@
             {
                 $GLOBALS['DB']->exec("DELETE FROM pokemon;");
             }
-            
+
             static function find($search_id)
             {
                 $found_pokemon = null;
